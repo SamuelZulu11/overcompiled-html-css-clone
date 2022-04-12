@@ -3,14 +3,18 @@
     src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
-body{
+body {
     font-family: 'IBM Plex Sans', sans-serif;
+    background-color: black;
+   
+
 }
 
 #major {
@@ -20,22 +24,67 @@ body{
     margin-top: 50px;
 }
 
-header {
-    display: flex;
+
+
+.overcompiled {
+    background-color: #de1223;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
 }
 
 #title {
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 0px;
 }
 
-.over {
-    font-weight: normal;
-}
-#logo, heaer h1 {
+nav {
     display: inline-block;
-    margin-bottom: 0px;
+    width: 600px;
+    text-align: right;
 }
 
-header h2 {
-    margin-top: 0px;
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.main {
+    padding: 40px;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.article_date {
+    color: gray;
+}
+
+
+
+.main a {
+    text-decoration: none;
+}
+
+.footer {
+    border-top: 1px solid white;
+}
+
+.rights {
+    color: #de1223;
+    margin-top: 20px;
 }
